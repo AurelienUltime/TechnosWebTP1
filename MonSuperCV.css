@@ -40,10 +40,15 @@ h3,h4,p{
 
 main{
     display: inline-flex;
-    width: 65%;
-    
+    width: 600px;
   
 }
+.numero2{
+    display: inline-flex;
+    width: 300px;   
+    
+}
+
 
 .experience{
     margin-left: 15px;
@@ -51,7 +56,9 @@ main{
 
 hr{
 
-    margin-right: 30px;
+   display: inline;
+   width: 300px;
+    
 }
 .date{
     color: gray;
@@ -59,15 +66,12 @@ hr{
     display: inline;
     width: 30%;
 }
+
 .reste{
     display: inline;
-    width: 70%;
+    width: 60%;
 }
-.numero2{
-    display: inline;
-    width: 30%;   
-    
-}
+
 em{
     color: red;
 }
@@ -80,4 +84,38 @@ li{
 }
 .logo {
      animation: rotateAnim 10s linear infinite;
+}
+.bandeau{
+
+    display: flex;
+    width: 90%;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.case{ 
+    text-decoration: none;
+    text-align: center;
+    background-color: grey;
+    width: 60%;
+    margin: 20px;
+    padding: 20px;
+    color:black;
+    
+}
+.case:hover{
+    background-color: #8a9eb6;
+}
+
+body
+{
+    font-size: .auto;
+    
+    margin: auto;
+    border: .1em solid #000;
+    width: 1000px;
+    background-color: white;
 }

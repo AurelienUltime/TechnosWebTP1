@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="fr">
-<html>
+
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" media="screen" type="text/css" href="MonSuperCV.css"/>
@@ -11,7 +11,8 @@
 
 <body>
     
-    <header class="principal">    
+    <header class="principal">  
+        
          <aside class="numero1"> 
              <img class="pp" src="photoBonFormatCV.jpg" width="150" height="150">
                 <article class="description">
@@ -24,12 +25,28 @@
          </aside>
         
      </header>
+    <header class="bandeau"> 
+      
+         
+        
+       <a href="#balise1" class="case"> Ma Formation</a>
+        <a href="#balise2" class="case"> Mes Projets</a>
+        <a href="#balise3" class="case"> Ma Personnalité</a>
+       
+          <a class="case" href="formulaire.html">Laissez un message</a>
+         <a class="case" href="https://www.linkedin.com/in/aurelien-gras-810893133/">LinkedIn</a>
+        
+        
+        
+        
+        
+    </header>
     
     <main>
         
     
         <article class="experience">
-            <header class="conteneur"><h4>Expériences Professionnelles</h4>
+            <header class="conteneur2"><h4>Expériences Professionnelles</h4>
             <hr>
             </header>
             
@@ -43,7 +60,7 @@
             </p>
         
         
-            <h4>Diplomes et Formation</h4>
+           <div id="balise1"> <h4>Diplomes et Formation</h4></div>
             <hr>
             <p class="date">2015-2020</p> <p class="reste"> <em>ECE Paris-Lyon</em></p>
             <p>Diplômé en 2020</p>
@@ -51,6 +68,14 @@
             <p class="date">juillet 2018- decembre 2018<p> <p class="reste">Réseaux <em> Technologico de Monterrey, Querétaro, Mexique</em></p><p> Approfondissement des langages de programmation web (HTML/CSS/JavaScript/PHP) - Cours de design thinking. 
 
            </p>
+            
+            <div id="balise2"><h4>Projets scolaires</h4> </div>
+            <hr>
+            
+                <strong>Application WEB | Chic-Tip</strong>   <p>Prototype d’application web permettant de verser un pourboire et de rechercher des enseignes sous différents critères. </p>
+ 
+<strong>Logiciel | S-Pool</strong> <p>Logiciel permettant de rechercher et simuler le meilleur coup de billard possible à partir d’une situation en temps réel.</p>
+
             </article>
         
     </main>
@@ -59,7 +84,7 @@
     <aside class="numero2">
         <article class="competences">
             <h4>Mes Compétences</h4>
-            <hr>
+            <br>
             <ul><li>Versioning Git </li>
                <li>Node.js </li>
                 <li>langages web : HTML/CSS/JavaScript/PHP </li>
@@ -68,13 +93,24 @@
             <li>C / C++ / Java </li>  
             </ul>
             <h4>Langues vivantes</h4>
-            <hr>
+            <br>
             <ul><li><strong>Anglais</strong> Niveau B2, certifié par le Toeic (810/990)</li>
             <li><strong>Espagnol</strong> Niveau A2</li>
             <li><strong>Anglais</strong> Niveau A2</li>
             </ul>
+            
+            <div id="balise3"><h4>Mes Atouts</h4></div>
+            
+            <ul>
+                <li>Organisé</li>
+                <li>Rigoureux</li>
+                <li>Aime le travail d'équipe</li>
+            </ul>
+            <p>Ma video</p>
+            <video width="640"  height="360" src="https://www.youtube.com/embed/6et7DkVUrSU" controls autobuffer></video>
 
         </article>
        
     </aside>
 </body>
+
