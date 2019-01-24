@@ -33,7 +33,7 @@
         <a href="#balise2" class="case"> Mes Projets</a>
         <a href="#balise3" class="case"> Ma Personnalité</a>
        
-          <a class="case" href="formulaire.html">Laissez un message</a>
+          <a class="case" href="#formulaire">Laissez un message</a>
          <a class="case" href="https://www.linkedin.com/in/aurelien-gras-810893133/">LinkedIn</a>
         
         
@@ -84,7 +84,7 @@
     <aside class="numero2">
         <article class="competences">
             <h4>Mes Compétences</h4>
-            <br>
+            
             <ul><li>Versioning Git </li>
                <li>Node.js </li>
                 <li>langages web : HTML/CSS/JavaScript/PHP </li>
@@ -93,7 +93,7 @@
             <li>C / C++ / Java </li>  
             </ul>
             <h4>Langues vivantes</h4>
-            <br>
+            
             <ul><li><strong>Anglais</strong> Niveau B2, certifié par le Toeic (810/990)</li>
             <li><strong>Espagnol</strong> Niveau A2</li>
             <li><strong>Anglais</strong> Niveau A2</li>
@@ -106,11 +106,35 @@
                 <li>Rigoureux</li>
                 <li>Aime le travail d'équipe</li>
             </ul>
-            <p>Ma video</p>
-            <video width="640"  height="360" src="https://www.youtube.com/embed/6et7DkVUrSU" controls autobuffer></video>
+            <h4>Ma video</h4>
+            <p> Comme je suis un passionné des nouvelles technologies, j'ai voulu mettre en avant une courte vidéo montrant les proncipales innovations montrées durant le CES 2019</p> <br>
+            <p> Bon visionnage !</p>
+            <video width="320"  height="180" src="CES_bestOf.mp4" controls autobuffer></video>
 
         </article>
        
     </aside>
+    <article class="form">
+       <div id="formulaire"> <h4>Formulaire</h4> </div>
+        <form action="/action_page.php">
+    <label for="fname">Votre Nom</label>
+    <input type="text" id="fname" name="firstname" placeholder="Dupond">
+
+    <label for="lname">Votre Prénom</label>
+    <input type="text" id="lname" name="lastname" placeholder="Jean">
+            
+    <label for="message">Laissez votre message</label>
+    <input type="text" id="message" name="message">
+            
+
+    
+      
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+
+        
+    </article>
 </body>
 
